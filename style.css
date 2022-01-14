@@ -2,6 +2,43 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
+/* navbar */
+.navbar{
+    height: 50px;
+    width: 100%;
+}
+.navbar h4{
+    position: absolute;
+    left: 8.33%;
+    right: 74.79%;
+    top: 2.63%;
+    bottom: 95.79%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A3A3A;
+}
+.topnav{
+    position: absolute;
+    width: 463px;
+    height: 36px;
+    left: 857px;
+    top: 40px;
+}
+.topnav a {
+    float: left;
+    color: #3A3A3A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .fas{
+      font-size: 17px;
+      color: #3A3A3A;
+      padding-left: 20px;
+      padding-top: 18px;
+  }
 /* header part */
 .container{
     display: flex;
@@ -12,6 +49,7 @@ body{
 .influencer{
     width: 45%;
     padding-left: 30px;
+    padding-top: 40px;
 }
 .influencer h1{
     font-size: 50px;
@@ -33,6 +71,7 @@ body{
     padding-left: 100px;
     width: 70%;
 }
-.fas{
+.fa-arrow-right{
     padding-left: 8px;
+    color: white;
 }
