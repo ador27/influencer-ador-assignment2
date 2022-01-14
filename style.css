@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* header part */
+.container{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+.influencer{
+    width: 45%;
+    padding-left: 30px;
+}
+.influencer h1{
+    font-size: 50px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 500;
+    padding: 8px 32px;
+    border-radius: 75px;
+}
+.images{
+    padding-left: 80px;
+    width: 50%;
+}
+.images img{
+    padding-left: 100px;
+    width: 70%;
+}
+.fas{
+    padding-left: 8px;
+}
