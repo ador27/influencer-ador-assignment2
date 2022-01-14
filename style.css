@@ -107,8 +107,11 @@ hr{
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 40px;
-    margin-left: 100px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    /* margin-left: 10px; */
+    background-color: #aaaaaa3f;
+    margin-bottom: 40px;
 }
 .container1{
     background-color:white;
@@ -141,4 +144,20 @@ hr{
 }
 .rating{
     padding-left: 15px;
+}
+
+/* footer part */
+.footer{
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    height: 200px;
+    padding-top: 30px;
+}
+.fab{
+    color: white;
+    position: relative;
+    height: 16px;
+    width: 16px;
+    margin-top: 20px;
 }
