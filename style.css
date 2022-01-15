@@ -111,7 +111,7 @@ hr{
     grid-column-gap: 30px;
     /* margin-left: 10px; */
     background-color: #aaaaaa3f;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .container1{
     background-color:white;
@@ -141,11 +141,31 @@ hr{
     height: 16px;
     width: 16px;
     padding-left: 0px;
+    margin-right: 0.1em;
 }
 .rating{
     padding-left: 15px;
 }
 
+/* extra part */
+.influence{
+    display: flex;
+}
+.influence img{
+    margin-left: 80px;
+}
+.influe{
+    margin: 35px 35px 35px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.influe h1{
+    font-family: monospace;
+    font-size: 34px;
+}
+.influe p{
+    margin-bottom: 20px;
+}
 /* footer part */
 .footer{
     text-align: center;
@@ -160,4 +180,5 @@ hr{
     height: 16px;
     width: 16px;
     margin-top: 20px;
+    margin-right: 1em;
 }
