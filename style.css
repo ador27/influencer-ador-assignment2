@@ -62,7 +62,7 @@ body{
     background-color: #E02C6D;
     color: white;
     font-weight: 500;
-    padding: 8px 32px;
+    padding: 8px 25px;
     border-radius: 75px;
 }
 .images{
@@ -72,7 +72,18 @@ body{
 .images img{
     padding-left: 100px;
     width: 70%;
+    overflow: hidden;
 }
+/* transition & transform */
+.images img:hover{
+    transform: scale(1.4) rotate(360deg);
+    transition: transform 3s ease-in-out;
+}
+.influencer h1:hover{
+    transform: scale(1.2);
+    transition: transform 3s ease-in-out;
+}
+/* transition & transform */
 .fa-arrow-right{
     padding-left: 8px;
     color: white;
@@ -182,3 +193,5 @@ hr{
     margin-top: 20px;
     margin-right: 1em;
 }
+
+/* responsive design for mobile devices */
